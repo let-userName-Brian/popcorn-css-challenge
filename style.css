@@ -3,3 +3,66 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+*{
+  margin: auto;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #FFDBAA;
+  display: inline-block;
+  width: 100%;
+  padding: auto;
+  padding-bottom: 20px;
+}
+
+.nav {
+  float: right;
+  margin-top: 20px;
+}
+
+.title{
+  font-size: xx-large;
+  color: #553100;
+}
+/* I messed around with some pointer changes*/
+button {
+  background-color: #805215;
+  color: white;
+  cursor: pointer;
+}
+
+body {
+  background-color: #D4A76A;
+}
+
+.card {
+  width: 25%;
+  background-color: white;
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  transition: 0.3s;
+  text-align: center;
+  margin:auto;
+  padding: 30px;
+}
+
+.column {
+  display: flex;
+  margin: 5%;
+}
+
+.footer-card {
+  width: 83%;
+  background-color: white;
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  text-align: center;
+  margin:auto;
+  padding: 30px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
